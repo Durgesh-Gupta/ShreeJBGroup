@@ -3,6 +3,7 @@ import "./App.css";
 import Intro from "./component/Intro";
 import Service from "./component/Service";
 import Section2 from "./component/Section2";
+import Gallery from "./component/Gallery";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Intro />
       <Service />
       <Section2 />
+      <Gallery/>
     </div>
   );
 }
