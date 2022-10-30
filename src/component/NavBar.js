@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div className="navbarContainer" style={{ border: "1px solid red" }}>
+    <div className="navbarContainer">
       <ul>
         <div className="floatRight">
           <li>
@@ -11,13 +11,13 @@ const NavBar = () => {
             </a>
           </li>
           <li>
-            <a href="#news">News</a>
+            <a href="#service">Service</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
           </li>
         </div>
       </ul>

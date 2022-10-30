@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="fullScreenContainer" style={{ backgroundColor: "pink" }}>
+    <div id="contact" className="fullScreenContainer" style={{ backgroundColor: "aqua" }}>
       Contact
     </div>
   );

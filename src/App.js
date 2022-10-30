@@ -4,14 +4,18 @@ import Intro from "./component/Intro";
 import Service from "./component/Service";
 import Section2 from "./component/Section2";
 import Gallery from "./component/Gallery";
+import Contact from "./component/Contact";
+import About from "./component/About";
 
 function App() {
   return (
-    <div style={{ border: "1px solid red" }}>
+    <div>
       <Intro />
       <Service />
       <Section2 />
-      <Gallery/>
+      <Gallery />
+      <About />
+      <Contact />
     </div>
   );
 }
