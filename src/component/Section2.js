@@ -16,7 +16,8 @@ const Section2 = () => {
           <div className="col">
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div className="d-flex flex-column h-100 text-white text-shadow-1">
-                <img className="GalleryImg"
+                <img
+                  className="GalleryImg"
                   src={Image1}
                   alt=""
                   style={{ width: "100%", height: "100%" }}
@@ -31,7 +32,8 @@ const Section2 = () => {
               // style="background-image: url('unsplash-photo-2.jpg');"
             >
               <div className="d-flex flex-column h-100 text-white text-shadow-1">
-                <img className="GalleryImg"
+                <img
+                  className="GalleryImg"
                   src={Image2}
                   alt=""
                   style={{ width: "100%", height: "100%" }}
@@ -39,14 +41,15 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="col">
             <div
               className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
               // style="background-image: url('unsplash-photo-2.jpg');"
             >
               <div className="d-flex flex-column h-100 text-white text-shadow-1">
-                <img className="GalleryImg"
+                <img
+                  className="GalleryImg"
                   src={Image3}
                   alt=""
                   style={{ width: "100%", height: "100%" }}
@@ -61,7 +64,8 @@ const Section2 = () => {
               // style="background-image: url('unsplash-photo-2.jpg');"
             >
               <div className="d-flex flex-column h-100 text-white text-shadow-1">
-                <img className="GalleryImg"
+                <img
+                  className="GalleryImg"
                   src={Image4}
                   alt=""
                   style={{ width: "100%", height: "100%" }}
@@ -76,7 +80,8 @@ const Section2 = () => {
               // style="background-image: url('unsplash-photo-2.jpg');"
             >
               <div className="d-flex flex-column h-100 text-white text-shadow-1">
-                <img className="GalleryImg"
+                <img
+                  className="GalleryImg"
                   src={Image5}
                   alt=""
                   style={{ width: "100%", height: "100%" }}
@@ -91,7 +96,8 @@ const Section2 = () => {
               // style="background-image: url('unsplash-photo-2.jpg');"
             >
               <div className="d-flex flex-column h-100 text-white text-shadow-1">
-                <img className="GalleryImg"
+                <img
+                  className="GalleryImg"
                   src={Image6}
                   alt=""
                   style={{ width: "100%", height: "100%" }}
@@ -99,8 +105,6 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-
-       
         </div>
       </div>
     </div>
