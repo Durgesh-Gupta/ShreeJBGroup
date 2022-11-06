@@ -6,6 +6,7 @@ import Section2 from "./component/Section2";
 import Gallery from "./component/Gallery";
 import Contact from "./component/Contact";
 import About from "./component/About";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Intro />
       <Service />
       <Section2 />
-      <Gallery />
+      {/* <Gallery /> */}
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }
