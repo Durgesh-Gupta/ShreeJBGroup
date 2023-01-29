@@ -7,18 +7,21 @@ import Gallery from "./component/Gallery";
 import Contact from "./component/Contact";
 import About from "./component/About";
 import Footer from "./component/Footer";
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
   return (
-    <div>
-      <Intro />
-      <Service />
-      <Section2 />
-      {/* <Gallery /> */}
-      <About />
-      <Contact />
-      <Footer />
-    </div>
+    <ParallaxProvider>
+      <div>
+        <Intro />
+        <Service />
+        <Section2 />
+        {/* <Gallery /> */}
+        <About />
+        <Contact />
+        <Footer />
+      </div>
+    </ParallaxProvider>
   );
 }
 

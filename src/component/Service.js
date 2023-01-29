@@ -2,13 +2,17 @@ import React from "react";
 import Truck from "../images/Truck.png";
 import Air from "../images/air.png";
 import Sea from "../images/sea.png";
+import { useParallax, Parallax } from "react-scroll-parallax";
 
 const Service = () => {
+  const parallax = useParallax({
+    speed: 20,
+  });
   return (
-    <div id="service" className="fullScreenContainer pt-5" style={{}}>
+    <div id="service" className="fullScreenContainer pt-5" ref={parallax.ref}>
       {" "}
       <div className="container px-4 py-5 " id="hanging-icons">
-        <h2 className="pb-2 border-bottom">WHAT WE DO OFFER</h2>
+        <Parallax translateX={[-10, 5]} speed={10}>   <h2 className="pb-2 border-bottom">WHAT WE DO OFFER</h2></Parallax>
         <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div className="col d-flex align-items-start">
             <div className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -62,6 +66,7 @@ const Service = () => {
               </a> */}
             </div>
           </div>
+
         </div>
       </div>
     </div>
